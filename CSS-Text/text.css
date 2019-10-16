@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'robotomedium';
+    src: url('Font/roboto-medium-webfont.woff2') format('woff2'),
+         url('Font/roboto-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Font/roboto-regular-webfont.woff2') format('woff2'),
+         url('Font/roboto-regular-webfont.woff') format('woff');
+}
+
+body {
+    background-color: gray;
+    font-family: "robotoregular" , cursive;
+    padding: 12px;
+    font-size:15px;
+}
+
+.begin{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: inherit;
+}
+.middle {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style:oblique;
+
+}
+.end {
+    background-color: violet;
+    font-family: inherit;
+    padding:5px;
+    font-size:1.2em;
+    border:1px;
+    border-radius:20px ;
+}
+
+p.begin>q {
+    font-family: monospace;
+    color: lightcoral;
+}
+
+p.middle>q {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 195, 128);
+}
+p.end>q {
+    font-family:inherit;
+    color: rgb(128, 154, 240);
+}
+
+p.end>span{
+    font-weight:bold;
+    font-style:italic;
+}
+

@@ -1,0 +1,8 @@
+.neki {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.neki2 {
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
