@@ -1,0 +1,46 @@
+
+main{
+    width: 960px;
+    margin: auto;
+}
+.cf::before, cf::after{
+content: '';
+display: table;
+}
+.cf::after{
+clear: both;
+}
+.left{
+    float: left;
+    width: 40%;
+}
+.right{
+    border-left: 2px solid grey;
+    float: right;
+    width: 40%;
+    padding: 10px 10px 10px 80px;
+}
+
+header{
+    height: 300px;
+    width: 960px;
+    margin:auto;
+}
+.head{
+    float: left;
+    display: inline;
+    font-size: 20px;
+
+}
+img {
+    height: 130px;
+    float:left;
+    padding: 10px 15px 20px 12px;
+    
+}
+h5{
+    margin-top:10px;
+}
+h1{
+    margin-bottom:0px;
+}
