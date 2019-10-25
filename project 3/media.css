@@ -1,0 +1,63 @@
+
+@media  all and (min-width: 1685px) {
+
+}
+
+@media all and (min-width: 1201px) and (max-width: 1684px) {
+    .part1 {
+        width:29%;
+    }
+}
+
+
+@media all and (min-width: 1035px) and (max-width: 1200px) { 
+
+
+.part1:nth-child(3) {
+    margin-right: 0px;
+    
+    margin-bottom: 10px;
+}
+
+.zelena, .pink, .plava, .kuca{
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: 260px;
+
+}
+
+.levo {
+    border-bottom: 2px solid black;
+    width: 40%;
+    margin-left: 19px;
+
+}
+
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1030px) { 
+
+.part1{
+    width: 44%;
+
+}
+#naslov5{
+    margin-top:270px;
+}
+
+
+}
+
+@media all and (max-width: 768px)  { 
+
+}
+
+
+
+
+
+
+
+
