@@ -5,18 +5,40 @@
 
 @media all and (min-width: 1201px) and (max-width: 1684px) {
     .part1 {
-        width:29%;
+        width:45%;
+        margin-bottom:10px;
     }
+
+    #mainContent div {
+        width: 41%;
+        display: inline;
+        float: left;
+        margin: auto;
+        padding: 0 20px;
 }
 
+.levo {
+   
+    width: 26%;
+    margin-left: 80px;
+}
+.desno {
+   
+    width: 26%;
+   
+}
+}
 
 @media all and (min-width: 1035px) and (max-width: 1200px) { 
 
+.part1{
+    margin-bottom:10px;
+    width: 45%;
+}
 
 .part1:nth-child(3) {
     margin-right: 0px;
     
-    margin-bottom: 10px;
 }
 
 .zelena, .pink, .plava, .kuca{
@@ -34,30 +56,158 @@
 
 }
 
-}
 
+}
 
 @media all and (min-width: 769px) and (max-width: 1030px) { 
 
+
+    .levo {
+        width: 37%;
+        margin-left: 33px;
+        padding:0px;
+    
+    }
+
+    #mainContent div{
+        padding:0px;
+    }
+
+
+    .desno {
+        width: 37%;
+   
+
+    }
+
+    #mainContent div {
+        width: 50%;
+        display: inline;
+        float: left;
+    }
+
+
 .part1{
     width: 44%;
+    margin-bottom:10px;
 
 }
 #naslov5{
     margin-top:270px;
+}
+.zelena, .pink, .plava, .kuca{
+    width: 50%;
+
 }
 
 
 }
 
 @media all and (max-width: 768px)  { 
+    .header {
+        width: 109%;
+        height:650px;
+        
+    }
+
+    #mainContent {
+        width: 94%;
+    }
+
+.levo {
+    width: 36%;
+    margin-left: 17px;
+}
+
+.desno {
+    width: 36%;
+   
+}
+
+#mainContent div {
+    width: 50%;
+    padding:0px;
+
+}
+
+    #naslov2 h1 {
+        padding: 230px 10% 0;
+        font-size: 56px;
+
+    }
+
+    .ljudi {
+        width: 95%;
+
+    }
+
+
+
+    .part1 {
+     width: 43%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 8px;
+
+    }
+    .zelena, .pink, .plava, .kuca{
+        width: 50%;
+    
+    }
+
+  
 
 }
 
 
 
+@media all and (max-width: 376px)  {
+    .header { 
+    width: 109%;
+    height: 608px;
+}
+
+#naslov2 h1 {
+
+    font-size: 38px;
+}
+
+#mainContent {
+    width: 95%;
+
+}
+
+#mainContent div{
+    width: 100%;
+}
+
+.levo {
+    width: 36%;
+    margin-left: 1px;
+}
+
+.devo {
+    width: 36%;
+  
+}
+
+.part1 {
+    width: 100%;
+    margin-right:0px;
+
+}
+
+.zelena, .pink, .plava, .kuca{
+    width: 100%;
+
+}
+
+.cf7 input{
+    width: 100%;
+    margin-bottom:20px;
+}
 
 
 
-
+}
 
