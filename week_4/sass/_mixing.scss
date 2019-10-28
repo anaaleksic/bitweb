@@ -1,0 +1,7 @@
+@mixin shadow($text-shadow,$box-shadow){
+    text-shadow:$text-shadow;
+    box-shadow:$box-shadow;
+      
+  }
+  
+  .text-shadow1{@include shadow(2px 4px green,5px 5px blue);}

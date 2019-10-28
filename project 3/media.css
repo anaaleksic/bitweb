@@ -105,8 +105,9 @@
 
 @media all and (max-width: 768px)  { 
     .header {
-        width: 109%;
+        width: 100%;
         height:650px;
+       
         
     }
 
@@ -142,7 +143,6 @@
     }
 
 
-
     .part1 {
      width: 43%;
     float: left;
@@ -150,6 +150,8 @@
     margin-bottom: 8px;
 
     }
+
+    
     .zelena, .pink, .plava, .kuca{
         width: 50%;
     
@@ -159,11 +161,62 @@
 
 }
 
+@media all and (max-width: 500px)and (min-width: 377px)  {
+
+
+
+    .header { 
+        width: 100%;
+        height: 608px;
+    }
+    
+    #naslov2 h1 {
+    
+        font-size: 38px;
+    }
+    
+    #mainContent {
+        width: 95%;
+    
+    }
+    
+    #mainContent div{
+        width: 100%;
+    }
+    
+    .levo {
+        width: 36%;
+        margin-left: 1px;
+    }
+    
+    .devo {
+        width: 36%;
+      
+    }
+    
+    .part1 {
+        width: 100%;
+        margin-right:0px;
+    
+    }
+    
+    .zelena, .pink, .plava, .kuca{
+        width: 100%;
+    
+    }
+    
+    .cf7 input{
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+}
+
 
 
 @media all and (max-width: 376px)  {
     .header { 
-    width: 109%;
+    width: 100%;
     height: 608px;
 }
 

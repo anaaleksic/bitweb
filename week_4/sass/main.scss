@@ -1,0 +1,10 @@
+$color: rgb(55, 48, 122);
+$color2:green;
+
+
+p{
+    color:$color;
+    & :hover{
+        color:$color2;
+    }
+}
