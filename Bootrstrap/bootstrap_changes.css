@@ -1,0 +1,121 @@
+
+
+.nav {
+    background-color: rgb(161, 21, 21);
+    width:1000px;
+    margin:auto;
+}
+.nav-link {
+    color:white;
+}
+
+
+
+
+.cf:before,.cf:after{
+
+    
+    content:"";
+    display:table;
+    
+}
+
+.cf:after{
+    clear:both;
+
+}
+
+ul li{
+    list-style-type:none;
+    float: right;
+    color:white;
+    padding: 15px;
+    float:right; 
+}
+
+.slika{
+    position:relative;
+    top:1px;
+    margin:auto;
+    display:block;
+    width:1000px;
+    margin-bottom: 20px;
+} 
+
+
+.jedan{
+    background-color:rgb(161, 21, 21);
+    width:300px; 
+    height:200px;
+    margin:auto;
+    }
+
+.slika1{
+    color:white;
+    padding:60px;
+    font-size:20px;
+}
+.dva{
+    color:white;
+    padding:600px;
+    font-size:20px;
+}
+
+.text1{
+    color:black;
+    padding:0px;
+    margin:auto;
+    width:300px;
+    height:200px;
+}
+
+
+.text2{
+    color:black;
+    padding:0px;
+    width:300px; 
+    height:200px;
+}
+.text3{
+    color:black;
+    padding:10px;
+    width:300px; 
+    height:200px;
+    background-color:orange;
+    margin-top:0px;
+}
+
+.text1{
+    color:black;
+    padding:0px;
+    width:300px; 
+    height:200px;
+}
+
+.text4{
+    color:black;
+    padding:0px;
+    width:300px; 
+    height:200px;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main article{
+    float:left;
+    padding: 0;
+    width: 33%;
+    height: 430px;
+}
+footer{
+    background-color:rgb(7, 7, 63);
+    height:60px;
+}
+.futertext{
+    color:white;
+    font-size:18px;
+    padding:20px 0px 20px 459px;

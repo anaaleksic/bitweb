@@ -1,0 +1,23 @@
+.first{
+    background-color: violet;
+}
+
+.second{
+    background-color: purple;
+}
+.top{
+    border: 1px solid black;
+}
+.left, .right{
+    border:1px solid black;
+}
+.color{
+    background-color:lightgray;
+}
+.color-2{
+    background-color: lightsalmon;
+}
+.color-3{
+    background-color:lightblue;
+}
+
