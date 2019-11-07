@@ -87,7 +87,7 @@
 
 //Sesti zadatak:
 
-function hello() {
+/* function hello() {
     alert('Hello stranger!');
 }
 
@@ -103,4 +103,96 @@ function userChoice(n) {
 }
 
 hello();
-question(userChoice());
+question(userChoice()); */
+
+/*
+function dropDown() {
+    var options = ["prvi", "drugi", "treci", "cetvrti"];
+    var svaki = "";
+    for (var i = 0; i < options.length; i++) {
+        svaki[svaki.length] += options[i];
+          vardocument.documentElement.lastElementChild.firstElementChild.firstElementChild
+    }
+    return svaki;
+} dropDown(); */
+
+/* function dropDown(options) {
+
+    for (var i = 0; i < options.length; i++) {
+        var selectList = document.createElement("option");
+        var text = document.createTextNode(options[i]);
+        selectList.appendChild(text);
+        var someList = document.querySelector("select");
+        someList.appendChild(selectList);
+    }
+
+}
+
+dropDown(["option1", "option2", "option3", "option4"]);
+
+//drugi deo zadatka
+
+var arr = ["macka", "mis", "bubasvaba", "pas"];
+var parent = document.querySelector("body");
+
+function selectMenu(arr, parent) {
+
+    var select = document.createElement("select");
+    var options = "";
+
+    for (var i = 0; i < arr.length; i++) {
+        options = options + "<option>" + arr[i] + "</option>"
+    }
+
+    select.innerHTML = options;
+    parent.appendChild(select);
+
+
+}
+selectMenu(arr, parent);
+
+//rucno
+
+document.documentElement.lastElementChild.querySelector("#bob").innerHTML = "<select><option>Cat</option></select>, <select><option>Dog</option></select>,<select><option>Elephant</option></select>"; */
+
+
+/*
+
+function s() {
+var loc = document.documentElement.lastElementChild.querySelector("#forma");
+var inp = document.documentElement.lastElementChild.querySelector("#forma").getElementsByTagName("input").hasAttribute("required");
+var boja = document.documentElement.lastElementChild.querySelector("#forma").
+
+document.documentElement.lastElementChild.querySelectorAll("input")
+
+
+if (inp) {
+    
+}
+
+/* loc.classList.toggle("red"); */
+/* }
+s(); */
+
+
+
+
+//Attributes
+
+var parent = document.querySelector("body");
+var br = "\n";
+
+function forma() {
+    var form = document.createElement("form");
+
+    for (var i = 0; i < 3; i++) {
+        var input = document.createElement("input");
+        form.appendChild(input);
+        if (input.value === "") {
+            input.style = "border: 1px solid red";
+        }
+
+    }
+    parent.appendChild(form);
+}
+forma();
